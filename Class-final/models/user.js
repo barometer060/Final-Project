@@ -194,3 +194,78 @@ exports.editUser = function(id, data) {
       throw err;
     });
 };
+
+exports.addSubCategory = function(category, subCategory, userId) {
+  return MongoClient.connect("mongodb://localhost:27017/")
+    .then(dbvar => {
+      const col = dbvar.db("adDatabase");
+      return col.collection("userDetails").updateOne(
+        { userId: userId },
+        {
+          $addToSet: {
+            mySubCategories: { category: category, subCategory: subCategory }
+          }
+        }
+      );
+    })
+    .catch(err => {
+      throw err;
+    });
+};
+
+exports.addSubscribedUsers = function(category, subCategory, userId) {
+  return MongoClient.connect("mongodb://localhost:27017/")
+    .then(dbvar => {
+      const col = dbvar.db("adDatabase");
+      return col
+        .collection("userDetails")
+        .updateOne(
+          { category: category, subCategory: subCategory },
+          { $addToSet: { subscribedUsers: userId } }
+        );
+    })
+    .catch(err => {
+      throw err;
+    });
+};
+
+exports.addSubscriptions = function(userId, adId) {
+  return MongoClient.connect("mongodb://localhost:27017")
+    .then(dbvar => {
+      const col = dbvar.collection("adDatabase");
+      return col
+        .collection("userDetails")
+        .updateOne({ userId: userId }, { $addToSet: { subscriptions: adId } });
+    })
+    .catch(err => {
+      throw err;
+    });
+};
+
+exports.getSubscriptions = function(userId) {
+  return MongoClient.connect("mongodb://localhost:27017/")
+    .then(dbvar => {
+      const col = dbvar.db("adDatabase");
+      return col
+        .collection("userDetails")
+        .find({ userId }, { projection: { subscriptions: 1 } })
+        .toArray();
+    })
+    .catch(err => {
+      throw err;
+    });
+};
+
+exports.getAds = function(userId) {
+  return MongoClient.connect("mongodb://localhost:27017/")
+    .then(dbvar => {
+      const col = dbvar.db("adDatabase");
+      return col
+        .collection("userDetails")
+        .find({ userId }, { projection: { myAds: 1 } })
+        .toArray();
+    })
+    .catch(err => {
+      throw err;
+    });
+};

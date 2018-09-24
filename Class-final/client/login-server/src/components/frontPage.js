@@ -26,7 +26,6 @@ class FrontPage extends Component {
       })
     })
       .then(allow => {
-        //console.log(allow.text());
         console.log(allow);
         return allow.json();
       })

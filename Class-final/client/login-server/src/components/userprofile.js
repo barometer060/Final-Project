@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import About from "./about";
-import myAds from "./myAds";
-import mySubs from "./mySubs";
+import MyAds from "./myAds";
+import MySubs from "./mySubs";
 import EditDetails from "./editDetails";
 import Messages from "./messages";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -114,8 +114,8 @@ class UserProfile extends Component {
                 {this.state.display[1] && (
                   <EditDetails onDataUpdate={this.handleClick} />
                 )}
-                {this.state.display[2] && <myAds />}
-                {this.state.display[3] && <mySubs />}
+                {this.state.display[2] && <MyAds />}
+                {this.state.display[3] && <MySubs />}
               </div>
             </div>
           </div>

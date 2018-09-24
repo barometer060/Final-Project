@@ -70,4 +70,19 @@ router.post("/edituserdetails", async (req, res) => {
   res.send(result);
 });
 
+router.get("/getSubscribedAds/:id", async (req, res) => {
+  const result = await User.getSubscriptions(req.params.id);
+  res.send(result);
+});
+
+router.post("/subscribeAd", async (req, res) => {
+  const result = await User.addSubscriptions(req.body.userId, req.body.adId);
+  res.send(result);
+});
+
+router.get("/getAds/:id", async (req, res) => {
+  const result = await User.getAds(req.params.id);
+  res.send(result);
+});
+
 module.exports = router;

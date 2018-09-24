@@ -1,53 +1,39 @@
-import React, { Component } from 'react';
-import '../App.css';
+import React, { Component } from "react";
+import "../App.css";
 
-class myAds extends Component {
+class MyAds extends Component {
+  state = {
+    show: false,
+    myAds: []
+  };
+  componentDidMount() {
+    fetch(
+      "http://localhost:8000/rest/api/users/getAds/c86cb7fd-fcc0-4531-8b89-bc39895204e9"
+    )
+      .then(data => {
+        return data.json();
+      })
+      .then(data => {
+        this.setState({ myAds: data[0] }, () => {
+          this.setState({ show: true });
+        });
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  }
+
   render() {
-    return (
-        <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-        <div className="row">
-            <div className="col-md-6">
-                <label>User Id</label>
-            </div>
-            <div className="col-md-6">
-                <p>Kshiti123</p>
-            </div>
-        </div>
-        <div className="row">
-            <div className="col-md-6">
-                <label>Name</label>
-            </div>
-            <div className="col-md-6">
-                <p>Kshiti Ghelani</p>
-            </div>
-        </div>
-        <div className="row">
-            <div className="col-md-6">
-                <label>Email</label>
-            </div>
-            <div className="col-md-6">
-                <p>kshitighelani@gmail.com</p>
-            </div>
-        </div>
-        <div className="row">
-            <div className="col-md-6">
-                <label>Phone</label>
-            </div>
-            <div className="col-md-6">
-                <p>123 456 7890</p>
-            </div>
-        </div>
-        <div className="row">
-            <div className="col-md-6">
-                <label>Profession</label>
-            </div>
-            <div className="col-md-6">
-                <p>Web Developer and Designer</p>
-            </div>
-        </div>
-</div>
+    let i = 0;
+    const ads = this.state.show ? (
+      this.state.myAds.myAds.map(ad => {
+        return <p key={i++}>{ad}</p>;
+      })
+    ) : (
+      <p>-</p>
     );
+    return <div>{ads}</div>;
   }
 }
 
-export default myAds;
+export default MyAds;
