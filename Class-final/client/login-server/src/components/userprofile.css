@@ -35,13 +35,18 @@ body {
   background: #f1f3fa;
 }
 
-.navbar {
+.navbar ul li a {
   width: 100%;
   margin-left: 0%;
   margin-right: 0;
+  color: white;
+}
+
+.navbar ul li ul a {
+  color: black;
 }
 /* Profile container */
-/* body{
+/* body {
   background: -webkit-linear-gradient(left, #3931af, #00c6ff);
 } */
 .emp-profile {
@@ -143,4 +148,11 @@ body {
 .profile-tab p {
   font-weight: 600;
   color: #0062cc;
+}
+
+.dropDown {
+  position: absolute;
+  left: 90%;
+  height: 50px;
+  width: 60px;
 }

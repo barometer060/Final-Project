@@ -59,13 +59,14 @@ router.get("/signUp/securityQ", async (req, res) => {
   res.send(result);
 });
 
-router.post("userdetails", async (req, res) => {
+router.post("/userdetails", async (req, res) => {
   const result = await User.userFetch(req.body.userId);
-  res.send(result);
+  res.send(result[0]);
 });
 
-router.post("edituserdetails", async (req, res) => {
+router.post("/edituserdetails", async (req, res) => {
   const result = await User.editUser(req.body.userId, req.body);
+  console.log(result);
   res.send(result);
 });
 
