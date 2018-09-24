@@ -3,10 +3,10 @@ body {
   margin: 0;
   height: 100vh;
   background: -webkit-linear-gradient(#fff 0%, #f2f7ff 100%);
-  
+
   -webkit-font-smoothing: antialiased;
 }
-.App{
+.App {
   float: center;
 }
 .active-back {
@@ -71,7 +71,7 @@ select:focus {
   border: 1px solid #286efa !important;
   outline-width: 0;
 }
-.abc{
+.abc {
   margin-top: 30px;
   width: 262px;
   height: 40px;
@@ -95,13 +95,13 @@ button:hover {
   background: #3c82ff;
   cursor: pointer;
 }
-table{
+table {
   align-self: center;
   align-content: center;
   align-items: center;
 }
-td{
-  text-align: center
+td {
+  text-align: center;
 }
 .form {
   position: relative;
@@ -183,14 +183,16 @@ td{
   }
 }
 
-label{
+label {
   color: #4f5c76;
-  
 }
-h1{
+h1 {
   text-align: center;
-  
+
   font-weight: 200;
   color: #4f5c76;
 }
 
+#security {
+  width: 262px;
+}

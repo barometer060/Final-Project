@@ -1,0 +1,214 @@
+<div class="container emp-profile">
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="profile-img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
+          alt="" />
+
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="profile-head">
+        <h5>
+          {{ObjectAds.adId}}
+        </h5>
+        <h6>
+          {{ObjectAds.location}}, {{ObjectAds.city}}
+        </h6>
+        <p class="proile-rating">{{ObjectAds.price| currency:'INR'}}</p>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+              aria-selected="true">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <button (click)='showIButton()' class='btn' *ngIf='interested'>Subscribe</button>
+      <button (click)='showNIButton()' class='btn' *ngIf='!interested'>Unsubscribe</button>
+    </div>
+  </div>
+  <div class="row" *ngIf="ObjectUser">
+    <div class="col-md-4">
+      <div class="profile-work">
+        <p>Number of Subscribers</p><br>
+        <strong>Posted By:</strong>
+        <p>{{ObjectUser[0].firstName}} {{ObjectUser[0].lastName}}</p>
+        <p>{{ObjectUser[0].phoneNumber}}</p>
+        <a href="">{{ObjectUser[0].emailId}}</a><br><br>
+        <input type="button" class="btn" value="Message">
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="tab-content profile-tab" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+          <!-- Electronics -->
+          <div *ngIf="ObjectAds.category=='Electronics'">
+            <div class="row">
+              <div class="col-md-6">
+                <label>Description</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.description}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Manufacturer</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.manufacturer}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Model</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.makeModel}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Make Year</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.makeYear}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Upload Date</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.uploadDate}}</p>
+              </div>
+            </div>
+          </div>
+          <!-- Property -->
+
+          <div *ngIf="ObjectAds.category=='Property'">
+            <div class="row">
+              <div class="col-md-6">
+                <label>Description</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.description}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Area(sqft)</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.areaInSqft}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Upload Date</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.uploadDate}}</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vehicles -->
+          <div *ngIf="ObjectAds.category=='Vehicles'">
+            <div class="row">
+              <div class="col-md-6">
+                <label>Description</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.description}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Manufacturer</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.manufacturer}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Model</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.makeModel}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Make Year</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.makeYear}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Km Covered</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.kmCovered}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Upload Date</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.uploadDate}}</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- others -->
+          <div *ngIf="ObjectAds.category=='Others'">
+            <div class="row">
+              <div class="col-md-6">
+                <label>Description</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.description}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Object</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.subCategory}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Purchase Year</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.purchaseYear}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Upload Date</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{ObjectAds.uploadDate}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>

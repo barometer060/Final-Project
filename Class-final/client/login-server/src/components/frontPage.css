@@ -1,48 +1,47 @@
-.fpage{
-  height:500px;
-  width:500px;
-  border:1px solid black;
-  margin-left:400px;
-  margin-top:170px;
+.fpage {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  margin-left: 400px;
+  margin-top: 170px;
 }
 
-.myinputs{
-  margin-top:150px;
-  margin-left:120px;
+.myinputs {
+  margin-top: 120px;
+  margin-left: 15px;
 }
 
-.forbtn{
-  margin-top:20px;
-  margin-left:120px;
+.forbtn {
+  margin-top: 20px;
+  margin-left: 25px;
 }
 
-.login{
+.login {
   background-color: black;
 }
-.myspan{
-  color: #D3D3D3;
+.myspan {
+  color: #d3d3d3;
 }
 
-.signup{
-  margin-left:30px;
-  height:30px;
-  width:80px;
-  background-color: black;  
+.signup {
+  margin-left: 30px;
+  height: 30px;
+  width: 80px;
+  background-color: black;
 }
 
-#okspan{
-  color:green
+#okspan {
+  color: green;
 }
 
-#notokspan{
-  color:red
-
+#notokspan {
+  color: red;
 }
-#heading{
-  margin-left:120px;
-  color:black
+#heading {
+  margin-left: 153px;
+  color: black;
 }
 
-#loginError{
-  color:red
+#loginError {
+  color: red;
 }

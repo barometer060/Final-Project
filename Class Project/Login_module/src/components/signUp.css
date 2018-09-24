@@ -71,6 +71,11 @@ select:focus {
   border: 1px solid #286efa !important;
   outline-width: 0;
 }
+
+.requiredField{
+  color: red;
+}
+
 .abc{
   margin-top: 30px;
   width: 262px;
@@ -101,13 +106,14 @@ table{
   align-items: center;
 }
 td{
-  text-align: center
+  text-align: right;
 }
+
 .form {
   position: relative;
   margin: 0 auto;
   margin-top: 55px;
-  width: 700px;
+  width: 800px;
   height: 650px;
   /*background: #fff;
   box-shadow: 0px 5px 80px 0px #e4e8f0;
@@ -137,7 +143,7 @@ td{
 .warning {
   color: #f00;
   /*text-align: center;*/
-  font-size: 15px;
+  
   /*margin-top: 30px;*/
 }
 .loader {

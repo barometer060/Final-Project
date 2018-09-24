@@ -8,8 +8,8 @@ class SignUp extends Component {
     super(props);
     this.state = {
       
-      checkEmailID : false,
-      checkPhoneNumber : false,
+      checkEmailID:  false,
+      checkPhoneNumber:  false,
       passChecked: false,
       passConfirm : true,
       isFresh : true,
@@ -125,7 +125,7 @@ class SignUp extends Component {
       
 
     });
-    <Link to ></Link>
+    
 
 
   }
@@ -317,57 +317,70 @@ class SignUp extends Component {
             <thead></thead>
             <tbody>
               <tr>
-                <td><label >First Name : </label></td>
+                <td><label>First Name<span className="requiredField">*</span> </label></td>
                 <td><input type="text"  required onChange={this.noteFirstName} /></td>
+                <td></td>
               </tr>
               <tr>
-                <td><label >LastName :</label></td>
+                <td><label >LastName </label></td>
                 <td><input type="text" onChange={this.noteLastName} /></td>
+                <td></td>
               </tr>
               <tr>
-                <td><label >Email :</label></td>
-                <td><input type="email" required onChange={this.noteEmail} onBlur={this.validateEmail} />{this.state.checkEmailID && <span className="warning">Email is already registered</span>}</td>
+                <td><label >Email<span className="requiredField">*</span> </label></td>
+                <td><input type="email" required onChange={this.noteEmail} onBlur={this.validateEmail} /></td>
+                <td>{this.state.checkEmailID && <span className="warning">Email is already registered</span>}</td>
               </tr>
               <tr>
-                <td><label >Password :</label></td>
-                <td><input type="password" required onChange={this.notePassword} onBlur= {this.handlePasswordCheck} /><br/>{this.state.passChecked && <span className="warning">Password should contain one captial letter, one number and a special character </span>}
+                <td><label >Password<span className="requiredField">*</span> </label></td>
+                <td><input type="password" required onChange={this.notePassword} onBlur= {this.handlePasswordCheck} /><br/>
                 </td>
+                <td>{this.state.passChecked && <span className="warning">Password should contain one captial letter, one number and a special character </span>}
+                {!this.state.passChecked && <span >Password should contain one captial letter, one number and a special character </span>}</td>
               </tr>
               <tr>
-                <td><label >Confirm Password :</label></td>
-                <td><input type="password" required onChange={this.noteConfirmPassword.bind(this)} onBlur={this.handlePasswordConfirm} /><br/> { !this.state.passConfirm && <span className= "warning">Passwords dont match</span>}</td>
+                <td><label >Confirm Password<span className="requiredField">*</span> </label></td>
+                <td><input type="password" required onChange={this.noteConfirmPassword.bind(this)} onBlur={this.handlePasswordConfirm} /><br/> </td>
+                <td>{ !this.state.passConfirm && <span className= "warning">Passwords dont match</span>}</td>
               </tr>
               <tr>
-                <td><label >Phone Number :</label>{this.state.checkPhoneNumber && <span className="warning" >Phone Number is already registered</span>}<br /></td>
+                <td><label >Phone Number<span className="requiredField">*</span> </label>{this.state.checkPhoneNumber && <span className="warning" >Phone Number is already registered</span>}<br /></td>
                 <td><input type="number" pattern="[2-9]{2}\d{8}" required onChange={this.notePhoneNumber} onBlur= {this.validatePhone} /></td>
+                <td></td>
               </tr>
               <tr>
-                <td><label >Date of Birth :</label></td>
+                <td><label >Date of Birth<span className="requiredField">*</span> </label></td>
+               
                 <td><input type="date" required onChange={this.noteDOB} /></td>
+                 <td></td> 
               </tr>
               <tr>
-                <td><label >Landmark :</label></td>
-                <td><input type="text" required onChange={this.noteLandmark} /></td>
+                <td><label >Landmark </label></td>
+                <td><input type="text" onChange={this.noteLandmark} /></td>
+                <td></td>
               </tr>
               <tr>
-                <td> <label >City :</label></td>
+                <td> <label >City<span className="requiredField">*</span> </label></td>
                 <td><input type="text" required onChange={this.noteCity} /></td>
+                <td></td>
               </tr>
               <tr>
-                <td><label >Pincode :</label></td>
-                <td><input type="number" required onChange={this.notePincode} /></td>
+                <td><label >Pincode </label></td>
+                <td><input type="number" onChange={this.notePincode} /></td>
+                <td></td>
               </tr>
               <tr>
-                <td><label >Security Question :</label></td>
+                <td><label >Security Question<span className="requiredField">*</span> </label></td>
                 <td><select name="carlist" defaultValue= "select" onChange={this.noteSecQ}>
-              <option value="select" >Select</option>
+              <option value="select" required>Select</option>
               {this.state.optionsKey}
             </select>
-                {!this.state.isFresh && this.state.checkSecQ && <span className="warning">Please Select Security Question</span>}
+                </td>
+                <td>
                 </td>
               </tr>
               <tr>
-                <td><label >Answer :</label><br /></td>
+                <td><label >Answer<span className="requiredField">*</span> </label><br /></td>
                 <td><input type="text" required onChange={this.noteAnswer.bind(this)} /></td>
               </tr>
               <tr>

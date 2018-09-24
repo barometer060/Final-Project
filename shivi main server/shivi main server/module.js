@@ -65,3 +65,21 @@ exports.subcategory=function(res,category, subcategory){
     }
 
 
+exports.getAllAds=function(res){
+    
+    MongoClient.connect('mongodb://localhost:27017/adFinalData', function(err,db){
+        
+            if (err) throw err;
+            var coll= db.db('adFinalData');
+            coll.collection('ad').find({}).toArray(function(err,data){
+                console.log(data)
+                if (err) throw err;
+                res.send(data);
+                db.close();
+            });
+            
+        })
+    }
+    
+
+

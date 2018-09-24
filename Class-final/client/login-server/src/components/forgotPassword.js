@@ -177,7 +177,7 @@ class ForgotPassword extends Component {
                   <i className="fa fa-arrow-circle-left" aria-hidden="true" />
                 </span>
               </div>
-              <h3 id="verify">Enter New Password</h3>
+              <h3 id="verify1">Enter New Password</h3>
 
               <div className="inputs">
                 <div className="email1">

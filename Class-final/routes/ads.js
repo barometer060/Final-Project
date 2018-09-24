@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Ad = require("../modules/ad");
+const Ad = require("../models/ad");
 
 router.post("/readCategoryAds", async (req, res) => {
   const result = await Ad.category(req.body.category);
@@ -12,12 +12,18 @@ router.post("/readCategoryAds1", async (req, res) => {
 });
 
 router.post("/readUserData", async (req, res) => {
-  const result = await Ad.userData(req.bodu.userId);
+  const result = await Ad.userData(req.body.userId);
   res.send(result);
 });
 
 router.post("/searchads", async (req, res) => {
-  const result = await Ad.searchField(req.bodu.searchdata);
+  const result = await Ad.searchField(req.body.searchdata);
+  res.send(result);
+});
+
+router.get("/getAllAds", async (req, res) => {
+  const result = await Ad.getAllAds();
+  // console.log(result);
   res.send(result);
 });
 

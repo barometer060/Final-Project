@@ -28,7 +28,7 @@ exports.userData = function(userId) {
     });
 };
 
-exports.category = function(category, subcategory) {
+exports.subcategory = function(category, subcategory) {
   return MongoClient.connect("mongodb://localhost:27017")
     .then(dbvar => {
       const col = dbvar.db("adDatabase");
@@ -43,6 +43,7 @@ exports.category = function(category, subcategory) {
 };
 
 exports.searchField = function(search) {
+  const q = search;
   return MongoClient.connect("mongodb://localhost:27017")
     .then(dbvar => {
       const col = dbvar.db("adDatabase");
@@ -59,6 +60,20 @@ exports.searchField = function(search) {
             { subCategory: new RegExp(q, "i") }
           ]
         })
+        .toArray();
+    })
+    .catch(err => {
+      throw err;
+    });
+};
+
+exports.getAllAds = function() {
+  return MongoClient.connect("mongodb://localhost:27017")
+    .then(dbvar => {
+      const col = dbvar.db("adDatabase");
+      return col
+        .collection("ad")
+        .find({})
         .toArray();
     })
     .catch(err => {

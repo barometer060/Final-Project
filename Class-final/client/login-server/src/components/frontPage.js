@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./frontPage.css";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import ForgotPassword from "./forgotPassword";
 
 class FrontPage extends Component {
@@ -35,6 +35,7 @@ class FrontPage extends Component {
         this.setState({ errorMessage: !data });
         if (data) {
           alert("Succesfully logged");
+          window.location = "http://localhost:4200";
           return false;
         }
       });
@@ -64,6 +65,8 @@ class FrontPage extends Component {
               ref="id"
               required
             />
+            <br />
+            <br />
             <input
               className="second"
               type="password"

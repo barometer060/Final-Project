@@ -33,6 +33,12 @@ app.post('/searchads', function(req, res){
     res.header("Access-Control-Allow-Headers","Origin,X-Requested-With,Content-Type,Accept")
     DAL.searchField(res,req.body.searchdata);
 })
+app.get('/getAllAds', function(req, res){
+   
+    res.header("Access-Control-Allow-Origin","*"),
+    res.header("Access-Control-Allow-Headers","Origin,X-Requested-With,Content-Type,Accept");
+    DAL.getAllAds(res);
+})
 
 app.listen(8081,()=>{
     console.log("Server has started")

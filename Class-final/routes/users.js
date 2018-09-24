@@ -12,6 +12,7 @@ router.post("/login", async (req, res) => {
     allowLogin = true;
   }
 
+  // if (allowLogin) return res.status(301).redirect("http://localhost:4200/");
   res.send(allowLogin);
 });
 

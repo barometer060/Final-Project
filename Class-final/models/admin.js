@@ -18,6 +18,12 @@ exports.f1 = function() {
   const data5 = JSON.parse(
     fr.readFileSync(path.resolve(__dirname, "../data/securityQues.json"))
   );
+  const data6 = JSON.parse(
+    fr.readFileSync(path.resolve(__dirname, "../data/ads.json"))
+  );
+  const data7 = JSON.parse(
+    fr.readFileSync(path.resolve(__dirname, "../data/users.json"))
+  );
   return MongoClient.connect("mongodb://localhost:27017/")
     .then(dbvar => {
       const col = dbvar.db("adDatabase");
@@ -26,6 +32,8 @@ exports.f1 = function() {
       col.collection("Property").insertMany(data3, true);
       col.collection("Vehicles").insertMany(data4, true);
       // col.collection("securityQues").insertMany(data5, true);
+      // col.collection("ad").insertMany(data6, true);
+      // col.collection("userDetails").insertMany(data7, true);
       return true;
     })
     .catch(err => {
