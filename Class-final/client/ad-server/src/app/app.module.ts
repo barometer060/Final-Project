@@ -7,6 +7,8 @@ import { AppRoutingModule } from ".//app-routing.module";
 import { CategoryComponent } from "./category/category.component";
 import { HttpClientModule } from "@angular/common/http";
 import { AdDetailsComponent } from "./ad-details/ad-details.component";
+import { DispalyMsgComponent } from "./dispaly-msg/dispaly-msg.component";
+import { MessagesComponent } from "./messages/messages.component";
 import { NgxPaginationModule } from "ngx-pagination";
 
 @NgModule({
@@ -14,7 +16,9 @@ import { NgxPaginationModule } from "ngx-pagination";
     AppComponent,
     ViewAdComponent,
     CategoryComponent,
-    AdDetailsComponent
+    AdDetailsComponent,
+    DispalyMsgComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,

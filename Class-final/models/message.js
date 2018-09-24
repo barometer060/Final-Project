@@ -23,7 +23,7 @@ exports.ReadMsgInbox = function(id) {
       const col = dbvar.db("adDatabase");
       return col
         .collection("messages")
-        .find({ receiverId: parseInt(id) })
+        .find({ receiverId: id })
         .toArray();
     })
     .catch(err => {
@@ -37,7 +37,7 @@ exports.ReadMsgOutbox = function(id) {
       const col = dbvar.db("adDatabase");
       return col
         .collection("messages")
-        .find({ senderId: parseInt(id) })
+        .find({ senderId: id })
         .toArray();
     })
     .catch(err => {
