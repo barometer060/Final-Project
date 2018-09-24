@@ -1,0 +1,56 @@
+.linknav{
+    color: rgb(216, 216, 216);
+
+}
+.linknav:hover{
+    color:white;
+}
+.dropdown2{
+    margin-left: 900px;
+}
+
+.leftsidebar
+{   
+   
+    border-right: 0.5px  rgba(128, 128, 128, 0.616) solid;
+    overflow-y: scroll;
+    
+}
+::-webkit-scrollbar{
+    width: 8px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(128, 128, 128, 0.658);
+}
+.fontside{
+    font-size: small;
+}
+.linkcolor{
+    color: rgba(0, 0, 0, 0.541);
+    font-size: 17px;
+}
+
+h3
+{
+    color: rgb(216, 216, 216);
+}
+.table-striped
+{
+    width: 200px;
+    height: 600px;
+}
+
+th
+{
+    font-size: 15px;
+}
+thead
+{
+    background-color: lightgray
+}
+.row
+{
+    position: relative;
+    margin-top: 50px;
+}

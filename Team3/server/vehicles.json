@@ -1,0 +1,796 @@
+
+    [
+  {
+    "userId": "",
+
+    "adId": "V21",
+
+    "price": 10000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Motorcycle in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Honda",
+
+    "makeModel": "V001",
+
+    "makeYear": 2015,
+
+    "kmCovered": 1000,
+
+    "location": "abc",
+
+    "images": "",
+
+    "uploadDate": "21-10-2016"
+
+  },
+  {
+    "userId": "",
+
+    "adId": "V22",
+
+    "price": 11000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Very Good",
+
+    "city": "Pune",
+
+    "manufacturer": "Hero",
+
+    "makeModel": "V002",
+
+    "makeYear": 2016,
+
+    "kmCovered": 125458,
+
+    "location": "Baner",
+
+    "images": "",
+
+    "uploadDate": "22-10-2016"
+
+  },
+  {
+    "userId": "",
+
+    "adId": "V23",
+
+    "price": 13000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Bicycle in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Suzuki",
+
+    "makeModel": "A127",
+
+    "makeYear": 2014,
+
+    "kmCovered": 1524,
+
+    "location": "Viman Nagar",
+
+    "images": "",
+
+    "uploadDate": "22-10-2016"
+
+  },
+  {
+    "userId": "",
+
+    "adId": "V24",
+
+    "price": 12000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Hello!! Hi there",
+
+    "city": "Pune",
+
+    "manufacturer": "Bajaj",
+
+    "makeModel": "B155",
+
+    "makeYear": 2010,
+
+    "kmCovered": 7854,
+
+    "location": "Talawade",
+
+    "images": "",
+
+    "uploadDate": "25-10-2016"
+
+  },
+  {
+    "userId": "",
+
+    "adId": "V25",
+
+    "price": 10000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Very good one",
+
+    "city": "Pune",
+
+    "manufacturer": "Mahindra",
+
+    "makeModel": "M125",
+
+    "makeYear": 2015,
+
+    "kmCovered": 958,
+
+    "location": "Balewadi",
+
+    "images": "",
+
+    "uploadDate": "1-10-2016"
+
+  },
+  {
+    "userId": "",
+
+    "adId": "V26",
+
+    "price": 10000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Bicycle in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "TVS",
+
+    "makeModel": "T2345",
+
+    "makeYear": 2012,
+
+    "kmCovered": 874,
+
+    "location": "Nigdi",
+
+    "images": "",
+
+    "uploadDate": "2-10-2016"
+
+  },
+  {
+    "userId": "",
+
+    "adId": "V27",
+
+    "price": 17000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Bicycle in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Kharadi",
+
+    "makeModel": "475B",
+
+    "makeYear": 2010,
+
+    "kmCovered": 1540,
+
+    "location": "Abc chowk",
+
+    "images": "",
+
+    "uploadDate": "12-10-2016"
+
+  },
+  {
+    "userId": "",
+
+    "adId": "V28",
+
+    "price": 10000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Bicycle in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Hero Honda",
+
+    "makeModel": "HH12234",
+
+    "makeYear": 2012,
+
+    "kmCovered": 12546,
+
+    "location": "Hinjewadi",
+
+    "images": "",
+
+    "uploadDate": "15-10-2016"
+
+  },
+  {
+    "userId": "",
+
+    "adId": "V29",
+
+    "price": 19000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Bicycle in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Hero",
+
+    "makeModel": "H6745",
+
+    "makeYear": 2010,
+
+    "kmCovered": 12546,
+
+    "location": "Bhosari",
+
+    "images": "",
+
+    "uploadDate": "21-11-2016"
+
+  },
+  {
+    "userId": "",
+
+    "adId": "V210",
+
+    "price": 10000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "2Wheelers",
+
+    "description": "Bicycle in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Atlas",
+
+    "makeModel": "A125",
+
+    "makeYear": 2015,
+
+    "kmCovered": 254125,
+
+    "location": "Chepanra",
+
+    "images": "",
+
+    "uploadDate": "30-10-2016"}
+
+,
+
+  {
+    "userId": "",
+
+    "adId": "VO1",
+
+    "price": "10000",
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Bicycle in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Atlas",
+
+    "makeModel": "A125",
+
+    "makeYear": 2015,
+
+    "kmCovered": null,
+
+    "location": "Bhosadi",
+
+    "image": "",
+
+    "uploadDate": "21-10-2016"
+
+  },
+
+  {
+    "userId": "",
+
+    "adId": "VO2",
+
+    "price": 5000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Bicycle in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Atlas",
+
+    "makeModel": "A1252",
+
+    "makeYear": 2015,
+
+    "kmCovered": null,
+
+    "location": "Nigdi",
+
+    "image": "",
+
+    "uploadDate": "21-10-2016"
+
+  },
+
+  {
+    "userId": "",
+
+    "adId": "VO3",
+
+    "price": 8000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Skateboard",
+
+    "city": "Mumbai",
+
+    "manufacturer": "BMW",
+
+    "makeModel": "SkaterBoy",
+
+    "makeYear": 2017,
+
+    "kmCovered": null,
+
+    "location": "Dharavi",
+
+    "image": "",
+
+    "uploadDate": "21-06-2017"
+  },
+
+  {
+    "userId": "",
+
+    "adId": "VO4",
+
+    "price": 12000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Auto_Rickshaw",
+
+    "city": "Pune",
+
+    "manufacturer": "Bajaj",
+
+    "makeModel": "A125",
+
+    "makeYear": 2016,
+
+    "kmCovered": null,
+
+    "location": "Talawade",
+
+    "image": "",
+
+    "uploadDate": "12-10-2016"
+
+  },
+
+  {
+    "userId": "",
+
+    "adId": "VO5",
+
+    "price": 3000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Bicycle in Good Condition",
+
+    "city": "Bangalore",
+
+    "manufacturer": "Atlas",
+
+    "makeModel": "A1223",
+
+    "makeYear": 2014,
+
+    "kmCovered": null,
+
+    "location": "Bellandur",
+
+    "image": "",
+
+    "uploadDate": "21-08-2017"
+
+  },
+
+  {
+    "userId": "",
+
+    "adId": "VO6",
+
+    "price": 109000000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Private Jet in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Boeing",
+
+    "makeModel": "B-700",
+
+    "makeYear": 2012,
+
+    "kmCovered": "NA",
+
+    "location": "Bhosadi",
+
+    "image": "",
+
+    "uploadDate": "21-10-2013"
+
+  },
+
+  {
+    "userId": "",
+
+    "adId": "VO7",
+
+    "price": 10000000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Private Yacht to catch fish",
+
+    "city": "Goa",
+
+    "manufacturer": "Kingfisher",
+
+    "makeModel": "KING",
+
+    "makeYear": "2015",
+
+    "kmCovered": null,
+
+    "location": "Panaji",
+
+    "image": "",
+
+    "uploadDate": "21-10-2016"
+
+  },
+
+  {
+    "userId": "",
+
+    "adId": "VO8",
+
+    "price": 10000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Helicopter used by Indian Army",
+
+    "city": "Pune",
+
+    "manufacturer": "Airbus",
+
+    "makeModel": "A125",
+
+    "makeYear": 2015,
+
+    "kmCovered": null,
+
+    "location": "Bhosadi",
+
+    "image": "",
+
+    "uploadDate": "21-10-2016"
+
+  },
+
+  {
+    "userId": "",
+
+    "adId": "VO9",
+
+    "price": 100000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Tractor in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Atlas",
+
+    "makeModel": "A125",
+
+    "makeYear": 2015,
+
+    "kmCovered": null,
+
+    "location": "Bhosadi",
+
+    "image": "",
+
+    "uploadDate": "21-10-2016"
+
+  },
+
+  {
+    "userId": "",
+
+    "adId": "VO10",
+
+    "price": 50000,
+
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+
+    "subCategory": "Others",
+
+    "description": "Auto in Good Condition",
+
+    "city": "Pune",
+
+    "manufacturer": "Atlas",
+
+    "makeModel": "A125",
+
+    "makeYear": 2006,
+
+    "kmCovered": null,
+
+    "location": "Bhosadi",
+
+    "image": "",
+
+    "uploadDate": "21-10-2006"
+
+  }
+,
+
+  {
+    "adId": "V4-1",
+    "price": 22,
+    "userId": "",
+    "description": "Car in good condition",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Pune",
+    "manufacturer": "HTML",
+    "makeModel": "Honda Civic",
+    "makeYear": 2018,
+    "kmCovered": 34000,
+    "location": "Hinjewadi",
+    "images": "",
+    "uploadDate": "12-17-2017"
+
+  },
+
+  {
+    "adId": "V4-2",
+    "price": 15,
+    "userId": "",
+    "description": "Color:Black Metalic",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Mumbai",
+    "manufacturer": "Toyota",
+    "makeModel": "Toyota Fortuner",
+    "makeYear": 2015,
+    "kmCovered": 26,
+    "location": "Airoli",
+    "images": "/imagess/car-model",
+    "uploadDate": "12-09-2015"
+
+  },
+
+  {
+    "adId": "V4-3",
+    "price": 25,
+    "userId": "",
+    "description": "Fuel Syatem:Multipoint Injection",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Pune",
+    "manufacturer": "Ford",
+    "makeModel": "Ford Territory",
+    "makeYear": 2014,
+    "kmCovered": 27,
+    "location": "Baner",
+    "images": "/imagess/car-model",
+    "uploadDate": "07-22-2018"
+
+  },
+
+  {
+    "adId": "V4-4",
+    "price": 18,
+    "userId": "",
+    "description": "Car in good condition",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Pune",
+    "manufacturer": "Nissan",
+    "makeModel": "Nissan Pulsar",
+    "makeYear": 2017,
+    "kmCovered": 24000,
+    "location": "Talwade",
+    "images": "/imagess/car-model",
+    "uploadDate": "11-09-2017"
+
+  },
+
+  {
+    "adId": "V4-5",
+    "price": "20",
+    "userId": "",
+    "description": "Car in good condition",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Chennai",
+    "manufacturer": "Hyundai Motor Company",
+    "makeModel": "Hyundai Tuscon",
+    "makeYear": 2016,
+    "kmCovered": 30.27,
+    "location": "Shivaji Nagar",
+    "images": "/imagess/car-model",
+    "uploadDate": "12-09-2017"
+
+  },
+
+  {
+    "adId": "V4-6",
+    "price": 35,
+    "userId": "",
+    "description": "Color:Grey",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Pune",
+    "manufacturer": "Toyota",
+    "makeModel": "Toyota Prius",
+    "makeYear": "2016",
+    "kmCovered": 210000,
+    "location": "Subhash nagar",
+    "images": "/imagess/car-model",
+    "uploadDate": "07-09-2016"
+
+  },
+
+  {
+    "adId": "V4-7",
+    "price": "13",
+    "userId": "",
+    "description": "Car in good condition",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Noida",
+    "manufacturer": "Ford",
+    "makeModel": "Ford Kuga",
+    "makeYear": 2017,
+    "kmCovered": 29000,
+    "location": "Bhel Chowk",
+    "images": "/imagess/car-model",
+    "uploadDate": "03-24-2017"
+
+  },
+
+  {
+    "adId": "V4-8",
+    "price": "50",
+    "userId": "",
+    "description": "Color:Black Metalic",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Pune",
+    "manufacturer": "BMW",
+    "makeModel": "BMW 4 Series",
+    "makeYear": 2014,
+    "kmCovered": 24000,
+    "location": "Shivaji Nagar",
+    "images": "/imagess/car-model",
+    "uploadDate": "04-09-2017"
+
+  },
+
+  {
+    "adId": "V4-9",
+    "price": "20.00",
+    "userId": "",
+    "description": "Car in good condition",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Delhi",
+    "manufacturer": "Nissan",
+    "makeModel": "Nissan Altima",
+    "makeYear": 2016,
+    "kmCovered": 2324,
+    "location": "Baner",
+    "images": "/imagess/car-model",
+    "uploadDate": "12-09-2017"
+
+  },
+
+  {
+    "adId": "V4-10",
+    "price": 6000000,
+    "currency": "INR",
+    "description": "Color:Silver",
+    "category": "Vehicles",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "4 Wheeler",
+    "city": "Pune",
+    "manufacturer": "Hyundai Motor Company",
+    "makeModel": "Hyundai Accent",
+    "makeYear": 2016,
+    "kmCovered": 25000,
+    "location": "Subhash nagar",
+    "images": "/imagess/car-model",
+    "uploadDate": "12-19-2017"
+
+  }
+]
+
+
+

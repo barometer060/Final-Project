@@ -1,0 +1,255 @@
+<nav class="navbar navbar-expand-lg bg-dark ">
+    <ul class="navbar-nav">
+
+      
+        <li class="nav-item .col-xs-2 col-sm-2 col-md-2 col-lg-2"><a href="#" class="nav-link linknav">Home</a></li>
+
+        <li class="nav-item col-xs-6 col-sm-6 col-md-6 col-lg-6"><a href="#" class="nav-link linknav">Post an Ad</a></li>
+
+        <li class="nav-item col-xs-12 col-sm-12 col-md-12 col-lg-12"></li>
+        <li class="nav-item col-xs-10 col-sm-10 col-md-10 col-lg-10"></li>
+        <li class="nav-item dropdown col-lg-6"><a href="#" class="nav-link dropdown-toggle linknav" data-toggle="dropdown">My
+                Account</a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">Profile</li>
+                <li class="dropdown-item">my-ads</li>
+                <li class="dropdown-item">Inbox</li>
+                <li class="dropdown-item">Logout</li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<h3>
+  Electronics form
+</h3>
+<hr>
+<!-- userId<input type="text" [(ngModel)] = "userId"><br> -->
+<!-- adId<input type="text" [(ngModel)] = "adId"><br> -->
+<!-- price<input type="number" [(ngModel)] = "price"><br>
+category<input type="text" [(ngModel)] = "category" disabled="disabled"><br> -->
+<!-- subCategory<input type="text" [(ngModel)] = "subCategory"><br> -->
+ <!-- description<input type="text" [(ngModel)] = "description"><br>  -->
+
+
+<!-- city<input type="text" [(ngModel)] = "city"><br>
+manufacturer<input type="text" [(ngModel)] = "manufacturer"><br>
+makeModel<input type="text" [(ngModel)] = "makeModel"><br>
+makeYear<input type="number" [(ngModel)] = "makeYear"><br>
+location<input type="text" [(ngModel)] = "location"><br>
+images<input type="text" [(ngModel)] = "images"><br>
+uploadDate<input type="text" [(ngModel)] = "uploadDate" disabled="disabled"><br> -->
+
+<!-- <button type="button" (click) = "show()">Show</button> -->
+
+<!-- <select [(ngModel)] = "subCategory">
+  <option value="mobiles">Mobiles</option>
+  <option value="television">Television</option>
+  <option value="others">Others</option>
+</select> -->
+
+<form #updateForm="ngForm" (ngSubmit)="show(updateForm)" novalidate>
+  <table class="table-condensed " align="center">                       
+    
+    
+    <tr> <th>Sub Category:<span class="required-mark" style="color: red">*</span></th>
+   
+   <th></th>
+   <th> 
+     
+      <div class="dropdown">
+    <select #subref="ngModel" [(ngModel)] = "subCategory"  name = "subCategory" required>
+        
+          <option value="mobiles">Mobiles</option>
+          <option value="television">Television</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+     
+        <div *ngIf="subref.errors && (subref.dirty || subref.touched)" class="well well-sm">
+            <div [hidden]="!subref.errors.required">
+               Please enter the Sub Category .
+            </div>
+        </div>
+         </th>
+      </tr>
+    <tr>
+      <th>User Id:</th>&nbsp;
+      <td>
+          <div class="left-inner-addon ">
+              <i class="glyphicon glyphicon-user"></i>
+        <input type="text" #idref="ngModel" [(ngModel)]="userId" name="userId" class="form-control"  required disabled>
+            </div>
+      </td>
+      <div *ngIf="idref.errors && (idref.dirty || idref.touched)" class="alert alert-danger">
+       <div [hidden]="!idref.errors.required">
+          Please enter the Product User Id.
+       </div>
+   
+     </div>
+    </tr>
+
+    <tr>
+      <th>Price:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+      <td>
+      <div class="left-inner-addon ">
+          <i class="glyphicon glyphicon-piggy-bank"></i>
+        <input type="number" #priceref="ngModel" [(ngModel)]="price" name="price" class="form-control"  required title="Enter the cost of the product">   </div>
+      <div *ngIf="priceref.errors && (priceref.dirty || priceref.touched)" class="alert alert-danger">
+       <div [hidden]="!priceref.errors.required">
+          Please enter the Product Price.
+       </div>
+     </div>
+      </td>
+ 
+    </tr>
+    <tr>
+      <th>Description:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+      <td>
+          <div class="left-inner-addon ">
+              <i class="glyphicon glyphicon-wrench"></i>
+        <input type="text" #descriptionref="ngModel" [(ngModel)]="description" name="description" class="form-control"  width="50" height="200"  required title="Enter the description of the product like the product features(specifications)">
+            </div>
+      
+      <div *ngIf="descriptionref.errors && (descriptionref.dirty || descriptionref.touched)" class="alert alert-danger">
+       <div [hidden]="!descriptionref.errors.required">
+          Please enter the Product Description.
+       </div>
+ 
+     </div>
+     </td>
+    </tr>
+    <tr>
+      <th>City:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+      <td>
+          <div class="left-inner-addon ">
+              <i class="glyphicon glyphicon-tree-conifer"></i>
+        <input type="text" #cityref="ngModel" [(ngModel)]="city" name="city" class="form-control"  required>
+     </div>
+     
+      <div *ngIf="cityref.errors && (cityref.dirty || cityref.touched)" class="alert alert-danger">
+       <div [hidden]="!cityref.errors.required">
+          Please enter the Product City.
+       </div>
+
+     </div>
+      </td>
+    </tr>
+    <tr>
+      <th>Manufacturer:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+      <td>
+          <div class="left-inner-addon ">
+              <i class="glyphicon glyphicon-wrench"></i>        
+        <input type="text" #manufacturerref="ngModel" [(ngModel)]="manufacturer" name="manufacturer" class="form-control" required>
+      </div>
+      
+      <div *ngIf="manufacturerref.errors && (manufacturerref.dirty || manufacturerref.touched)" class="alert alert-danger">
+       <div [hidden]="!manufacturerref.errors.required">
+          Please enter the Product Manufacturer.
+       </div>
+   
+     </div>
+     </td>
+    </tr>
+    <tr>
+      <th>Make Model:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+      <td>
+          <div class="left-inner-addon ">
+              <i class="glyphicon glyphicon-wrench"></i>
+        <input type="text" #makeModelref="ngModel" [(ngModel)]="makeModel" name="makeModel" class="form-control" required>
+      </div>
+     
+      <div *ngIf="makeModelref.errors && (makeModelref.dirty || makeModelref.touched)" class="alert alert-danger">
+       <div [hidden]="!makeModelref.errors.required">
+          Please enter the Product Make Model.
+       </div>
+
+     </div>
+      </td>
+    </tr>
+    <tr>
+      <th>Location:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+      <td>
+          <div class="left-inner-addon ">
+              <i class="glyphicon glyphicon-globe"></i>
+        <input type="text" #locationref="ngModel" [(ngModel)]="location" name="location" class="form-control"  required>
+      </div>
+      
+      <div *ngIf="locationref.errors && (locationref.dirty || locationref.touched)" class="alert alert-danger">
+       <div [hidden]="!locationref.errors.required">
+          Please enter the Product Location.
+       </div>
+
+   
+     </div>
+     </td>
+    </tr>
+    <tr>
+      <th>Make year:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+      <td>
+          <div class="left-inner-addon ">
+              <i class="glyphicon glyphicon-hourglass"></i>
+        <input type="number" #makeYearref="ngModel" [(ngModel)]="makeYear" name="makeYear" class="form-control"  required>
+      
+      </div>
+      
+      <div *ngIf="makeYearref.errors && (makeYearref.dirty || makeYearref.touched)" class="alert alert-danger">
+       <div [hidden]="!makeYearref.errors.required">
+          Please enter the Product Make year.
+       </div>
+     </div>
+     </td>
+    </tr>
+    <tr>
+      <th>Category:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+      <td>
+          <div class="left-inner-addon ">
+              <i class="glyphicon glyphicon-tasks"></i>
+        <input type="text" #categoryref="ngModel" [(ngModel)]="category" name="category" class="form-control"  required disabled>
+      </div>
+     
+      <div *ngIf="categoryref.errors && (categoryref.dirty || categoryref.touched)" class="alert alert-danger">
+       <div [hidden]="!categoryref.errors.required">
+          Please enter the Product Category.
+       </div>
+
+   
+     </div>
+      </td>
+    </tr>
+    <tr>
+      <th>Upload Date:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+      <td>
+          <div class="left-inner-addon ">
+              <i class="glyphicon glyphicon-calendar"></i>
+        <input type="text" #uploadDateref="ngModel" [(ngModel)]="uploadDate" name="uploadDate" class="form-control"  required  disabled>
+      </div>
+      
+      <div *ngIf="uploadDateref.errors && (uploadDateref.dirty || uploadDateref.touched)" class="alert alert-danger">
+       <div [hidden]="!uploadDateref.errors.required">
+          Please enter the Product Upload Date.
+       </div>
+     </div>
+     </td>
+    </tr>
+    <tr>
+        <th>File upload:<span class="required-mark" style="color: red">*</span></th>&nbsp;
+        <td>
+            <div class="left-inner-addon ">
+                <i class="glyphicon glyphicon-upload"></i>
+          <input type="file" #fileDateref="ngModel" [(ngModel)]="uploadFile" name="uploadFile" class="form-control"  required >
+        </div>
+        
+        <div *ngIf="fileDateref.errors && (fileDateref.dirty || fileDateref.touched)" class="alert alert-danger">
+         <div [hidden]="!fileDateref.errors.required">
+            Please enter the Product Upload Date.
+         </div>
+       </div>
+       </td>
+      </tr>
+
+    <tr>
+      <td><input type="submit" value="Submit" [disabled]="!updateForm.form.valid" class="btn btn-success"></td>
+      </tr>
+    </table>
+

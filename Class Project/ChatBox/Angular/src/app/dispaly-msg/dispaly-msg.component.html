@@ -1,0 +1,60 @@
+<div>
+  <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <input type="number" name="RId" [(ngModel)]= "receiver" #RId= "ngModel" placeholder="receiverID">
+  <input type="submit">
+  </form>
+</div>
+
+
+<br><br>
+
+<input type="button" (click)="MailBox()" value="MailBox">
+
+
+
+
+<div [hidden]="showmsg">
+
+<div [hidden]= "InboxNoData">
+  <p>No data bro!</p>
+  </div> 
+
+
+<div [hidden]="InboxData">
+<table border="2px">
+  <tr *ngFor= "let x of msgData">
+    <td>Sender Id:{{x.senderId}}</td>
+    <td>
+      <tr *ngFor = "let y of x.msgArr">
+        <td>{{y}}</td>
+      </tr>
+    </td>
+  </tr>
+</table>
+</div>
+</div>
+
+
+<br>
+<br>
+
+<input type="button" (click)= "Outbox()" value="Outbox">
+
+<div [hidden]="showOutBox">
+<div [hidden]="OutboxNoData">
+  <p>NO Sent Messages</p>
+</div>
+
+<div [hidden]= "Outboxdata">
+  <table>
+    <tr *ngFor="let x of outboxMsg">
+      <td>Sent to: {{x.receiverId}}</td>
+      <td>
+        <tr *ngFor="let y of x.msgArr">
+          <td>{{y}}</td>
+        </tr>
+      </td>
+    </tr>
+  </table>
+</div>
+</div>

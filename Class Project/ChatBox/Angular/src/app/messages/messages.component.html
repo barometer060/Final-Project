@@ -1,0 +1,19 @@
+<button (click)="hideShow=(hideShow ? false : true)">Chat</button>
+<br><br>
+<div *ngIf="hideShow" align="center">
+    <form #myForm="ngForm" (ngSubmit)="send(myForm.form.value)" nonvalidate>
+        <div class="msg">
+        <input type="number" placeholder="Enter senderId" name="ids" [(ngModel)]="ids">&nbsp;
+        <input type="number" placeholder="Enter receiverId" name="idr" [(ngModel)]="idr"><br><br>
+        <textarea rows="4" cols="50" name='text' [(ngModel)]="text" placeholder="Enter your message here" required></textarea>
+        <br>
+        <input type="submit" value="Send Message" [disabled]="!myForm.form.valid">
+        </div>
+    </form>
+    
+</div>
+<nav>
+    <a routerLink="/dispaly-msg" routerLinkActive="active">Receiver</a>
+  </nav>
+  <router-outlet></router-outlet>
+

@@ -1,0 +1,48 @@
+.fpage{
+  height:500px;
+  width:500px;
+  border:1px solid black;
+  margin-left:400px;
+  margin-top:170px;
+}
+
+.myinputs{
+  margin-top:150px;
+  margin-left:120px;
+}
+
+.forbtn{
+  margin-top:20px;
+  margin-left:120px;
+}
+
+.login{
+  background-color: black;
+}
+.myspan{
+  color: #D3D3D3;
+}
+
+.signup{
+  margin-left:30px;
+  height:30px;
+  width:80px;
+  background-color: black;  
+}
+
+#okspan{
+  color:green
+}
+
+#notokspan{
+  color:red
+
+}
+#heading{
+  margin-left:120px;
+  color:black
+}
+
+#loginError{
+  color:red
+}

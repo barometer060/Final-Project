@@ -1,0 +1,79 @@
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+h3{
+    color: black;
+    margin-left: 500px;
+
+}
+
+
+.linknav{
+    color: rgb(216, 216, 216);
+
+}
+.linknav:hover{
+    color:white;
+}
+.dropdown2{
+    margin-left: 900px;
+}
+
+.leftsidebar
+{   
+   
+    border-right: 0.5px  rgba(128, 128, 128, 0.616) solid;
+    overflow-y: scroll;
+    
+}
+::-webkit-scrollbar{
+    width: 8px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(128, 128, 128, 0.658);
+}
+.fontside{
+    font-size: small;
+}
+.linkcolor{
+    color: rgba(0, 0, 0, 0.541);
+    font-size: 17px;
+}
+
+.panel-heading
+{
+    text-align:center
+}
+
+.panel-body:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+
+.panel-footer
+{
+    text-align: center
+}
+
+img:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.table-condensed
+{
+    width: 800px;
+    height: 700px;
+    
+}

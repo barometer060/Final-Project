@@ -1,0 +1,923 @@
+[
+  {
+    "userId": "1001",
+
+    "adId": "EM1001",
+
+    "price": 12999,
+
+    "category": "Eletronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Touch Mobile",
+
+    "city": "Pune",
+
+    "manufacturer": "Samsung",
+
+    "makeModel": "S7",
+
+    "makeYear": 2017,
+
+    "location": "Talwade",
+
+    "images": "",
+
+    "uploadDate": "",
+
+    "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+
+  {
+    "userId": "1002",
+
+    "adId": "EM1002",
+
+    "price": 13499,
+
+    "category": "Electronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Touch Mobile",
+
+    "city": "Mumbai",
+
+    "manufacturer": "Xioami",
+
+    "makeModel": "Note 4",
+
+    "makeYear": 2017,
+
+    "location": "Worli",
+
+    "images": "",
+
+    "uploadDate": "",
+
+    "isAction": 0,
+    
+    "isWarning": 0
+
+  },
+
+  {
+    "userId": "1003",
+
+    "adId": "EM1003",
+
+    "price": 10099,
+
+    "category": "Eletronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Touch Mobile",
+
+    "city": "Nagpur",
+
+    "manufacturer": "LG",
+
+    "makeModel": "G5",
+
+    "makeYear": 2015,
+
+    "location": "Nagpur city",
+
+    "images": "",
+
+    "uploadDate": "",
+
+    "isAction": 0,
+    
+    "isWarning": 0
+
+  },
+
+  {
+    "userId": "1004",
+
+    "adId": "EM1004",
+
+    "price": 1995,
+
+    "category": "Eletronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Feature Mobile",
+
+    "city": "Kohlapur",
+
+    "manufacturer": "Samsung",
+
+    "makeModel": "Guru",
+
+    "makeYear": 2014,
+
+    "location": "Kohlapur city",
+
+    "images": "",
+
+    "uploadDate": "21-10-2016",
+
+    "isAction": 0,
+    
+    "isWarning": 0
+
+  },
+
+  {
+    "userId": "1005",
+
+    "adId": "EM1005",
+
+    "price": 19999,
+
+    "category": "Eletronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Touch Mobile",
+
+    "city": "Kolkata",
+
+    "manufacturer": "Apple",
+
+    "makeModel": "iPhoneSE",
+
+    "makeYear": 2017,
+
+    "location": "Howrah",
+
+    "images": "",
+
+    "uploadDate": "",
+
+    "isAction": 0,
+    
+    "isWarning": 0
+
+  },
+
+  {
+    "userId": "1006",
+
+    "adId": "EM1006",
+
+    "price": 12999,
+
+    "category": "Eletronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Touch Mobile",
+
+    "city": "Delhi",
+
+    "manufacturer": "Apple",
+
+    "makeModel": "X",
+
+    "makeYear": 2018,
+
+    "location": "Chawri Bazar",
+
+    "images": "",
+
+    "uploadDate": "12-09-2018",
+
+    "isAction": 0,
+    
+    "isWarning": 0
+  },
+
+  {
+    "userId": "1007",
+
+    "adId": "EM1007",
+
+    "price": 14999,
+
+    "category": "Eletronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Touch Mobile",
+
+    "city": "Pune",
+
+    "manufacturer": "Huawei",
+
+    "makeModel": "Honour 7X",
+
+    "makeYear": 2017,
+
+    "location": "Talwade",
+
+    "images": "",
+
+    "uploadDate": "16-09-2018",
+
+    "isAction": 0,
+    
+    "isWarning": 0
+  },
+  {
+    "userId": "1008",
+
+    "adId": "EM1008",
+
+    "price": 10789,
+
+    "category": "Eletronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Touch Mobile",
+
+    "city": "Delhi",
+
+    "manufacturer": "Lenovo",
+
+    "makeModel": "P1",
+
+    "makeYear": 2016,
+
+    "location": "Chandni Chawk",
+
+    "images": "",
+
+    "uploadDate": "17-08-2018",
+     "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+  {
+    "userId": "1009",
+
+    "adId": "EM1009",
+
+    "price": 18000,
+
+    "category": "Eletronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Touch Mobile",
+
+    "city": "Mumbai",
+
+    "manufacturer": "Huawei",
+
+    "makeModel": "Huawei P20",
+
+    "makeYear": 2018,
+
+    "location": "Thane",
+
+    "images": "",
+
+    "uploadDate": "5-09-2018",
+   
+     "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+  {
+    "userId": "1010",
+
+    "adId": "EM1010",
+
+    "price": 35000,
+
+    "category": "Eletronics",
+
+    "subCategory": "Mobiles",
+
+    "description": "Touch Mobile",
+
+    "city": "Mumbai",
+
+    "manufacturer": "One Plus",
+
+    "makeModel": "One Plus 6",
+
+    "makeYear": 2018,
+
+    "location": "Thane",
+
+    "images": "",
+
+    "uploadDate": "14-07-2018",
+      "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+
+
+  {
+    "userId": "1001",
+
+    "adId": "ET1001",
+
+    "price": 13499,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Mumbai",
+
+    "manufacturer": "Xioami",
+
+    "makeModel": "Series 4",
+
+    "makeYear": 2017,
+
+    "location": "Worli",
+
+    "images": "",
+
+    "uploadDate": "21-08-2018",
+      "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+
+  {
+    "userId": "1002",
+
+    "adId": "ET1002",
+
+    "price": 23499,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Pune",
+
+    "manufacturer": "Samsung",
+
+    "makeModel": "Series 5",
+
+    "makeYear": 2017,
+
+    "location": "Talwade",
+
+    "images": "",
+
+    "uploadDate": "21-03-2018",
+     "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+
+  {
+    "userId": "1003",
+
+    "adId": "ET1003",
+
+    "price": 63499,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Nagpur",
+
+    "manufacturer": "LG",
+
+    "makeModel": "Series 4",
+
+    "makeYear": 2017,
+
+    "location": "Nagpur city",
+
+    "images": "",
+
+    "uploadDate": "11-08-2018",
+      "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+
+  {
+    "userId": "1004",
+
+    "adId": "ET1004",
+
+    "price": 13499,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Delhi",
+
+    "manufacturer": "Sony",
+
+    "makeModel": "Series 2",
+
+    "makeYear": 2014,
+
+    "location": "Chandini Chowk",
+
+    "images": "",
+
+    "uploadDate": "04-08-2018",
+     "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+
+  {
+    "userId": "1005",
+
+    "adId": "ET1005",
+
+    "price": 73499,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Gurgaon",
+
+    "manufacturer": "Toshiba",
+
+    "makeModel": "Series 7",
+
+    "makeYear": 2015,
+
+    "location": "Cyberhub",
+
+    "images": "",
+
+    "uploadDate": "15-08-2018",
+      "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+
+  {
+    "userId": "1006",
+
+    "adId": "ET1006",
+
+    "price": 80000,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Pune",
+
+    "manufacturer": "Sony",
+
+    "makeModel": "Series 9",
+
+    "makeYear": 2018,
+
+    "location": "Talwade",
+
+    "images": "",
+
+    "uploadDate": "18-04-2018",
+  "isAction": 0,
+    
+    "isWarning": 0
+    
+  },
+  {
+    "userId": "1007",
+
+    "adId": "ET1007",
+
+    "price": 45000,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Gurgaon",
+
+    "manufacturer": "LG",
+
+    "makeModel": "Series 7",
+
+    "makeYear": 2012,
+
+    "location": "Cyberhub",
+
+    "images": "",
+
+    "uploadDate": "12-05-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+  {
+    "userId": "1008",
+
+    "adId": "ET1005",
+
+    "price": 70000,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Delhi",
+
+    "manufacturer": "Toshiba",
+
+    "makeModel": "Series 9",
+
+    "makeYear": 2014,
+
+    "location": "Rajiv Chawk",
+
+    "images": "",
+
+    "uploadDate": "15-08-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+
+  {
+    "userId": "1009",
+
+    "adId": "ET1009",
+
+    "price": 60500,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Gurgaon",
+
+    "manufacturer": "Samsung",
+
+    "makeModel": "Series 6",
+
+    "makeYear": 2016,
+
+    "location": "Cyberhub",
+
+    "images": "",
+
+    "uploadDate": "12-03-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+
+  {
+    "userId": "1010",
+
+    "adId": "ET1010",
+
+    "price": 35499,
+
+    "category": "Electronics",
+
+    "subCategory": "Television",
+
+    "description": "LED",
+
+    "city": "Gurgaon",
+
+    "manufacturer": "Sony",
+
+    "makeModel": "Series 6",
+
+    "makeYear": 2013,
+
+    "location": "Cyberhub",
+
+    "images": "",
+
+    "uploadDate": "17-06-2018",
+      "isAction": 0,          "isWarning": 0
+  }
+,
+
+  {
+    "userId": "1001",
+
+    "adId": "EO1001",
+
+    "price": 73499,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "Tablet",
+
+    "city": "Gurgaon",
+
+    "manufacturer": "Dell",
+
+    "makeModel": "Series 1",
+
+    "makeYear": 2015,
+
+    "location": "Cyberhub",
+
+    "images": "",
+
+    "uploadDate": "15-08-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+
+  {
+    "userId": "1002",
+
+    "adId": "EO1002",
+
+    "price": 73499,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "Laptop",
+
+    "city": "Gurgaon",
+
+    "manufacturer": "Hp",
+
+    "makeModel": "Pavillion",
+
+    "makeYear": 2013,
+
+    "location": "Cyberhub",
+
+    "images": "",
+
+    "uploadDate": "02-04-2017",
+      "isAction": 0,          "isWarning": 0
+  },
+
+  {
+    "userId": "1003",
+
+    "adId": "EO1003",
+
+    "price": 7399,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "Smart Watch",
+
+    "city": "Mumbai",
+
+    "manufacturer": "Fitbit",
+
+    "makeModel": "Series 5",
+
+    "makeYear": 2015,
+
+    "location": "Bandra",
+
+    "images": "",
+
+    "uploadDate": "15-08-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+
+  {
+    "userId": "1004",
+
+    "adId": "EO1004",
+
+    "price": 101999,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "DSLR",
+
+    "city": "Pune",
+
+    "manufacturer": "Nikon",
+
+    "makeModel": "D5600",
+
+    "makeYear": 2017,
+
+    "location": "Talwade",
+
+    "images": "",
+
+    "uploadDate": "15-08-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+
+  {
+    "userId": "1005",
+
+    "adId": "EO1005",
+
+    "price": 12999,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "Tablet",
+
+    "city": "Delhi",
+
+    "manufacturer": "Samsung",
+
+    "makeModel": "Galaxy 4",
+
+    "makeYear": 2013,
+
+    "location": "Sarojini Nagar",
+
+    "images": "",
+
+    "uploadDate": "15-08-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+  {
+    "userId": "1006",
+
+    "adId": "EO1006",
+
+    "price": 12999,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "Power Bank",
+
+    "city": "Delhi",
+
+    "manufacturer": "Xiomi",
+
+    "makeModel": "series 7",
+
+    "makeYear": 2018,
+
+    "location": "Rajiv Chawk",
+
+    "images": "",
+
+    "uploadDate": "17-05-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+
+  {
+    "userId": "1007",
+
+    "adId": "EO1007",
+
+    "price": 800,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "Ear Phones",
+
+    "city": "Pune",
+
+    "manufacturer": "JBL",
+
+    "makeModel": "Pure Bass 2.0",
+
+    "makeYear": 2015,
+
+    "location": "Talwade",
+
+    "images": "",
+
+    "uploadDate": "11-02-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+
+  {
+    "userId": "1008",
+
+    "adId": "EO1008",
+
+    "price": 5000,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "Head Phones",
+
+    "city": "Delhi",
+
+    "manufacturer": "Sony",
+
+    "makeModel": "Series 8",
+
+    "makeYear": 2013,
+
+    "location": "Sarojini Nagar",
+
+    "images": "",
+
+    "uploadDate": "12-06-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+  {
+    "userId": "1009",
+
+    "adId": "EO1009",
+
+    "price": 8000,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "Tablet",
+
+    "city": "Delhi",
+
+    "manufacturer": "Lenovo",
+
+    "makeModel": "Flexi 2.0",
+
+    "makeYear": 2015,
+
+    "location": "Rajiv Chawk",
+
+    "images": "",
+
+    "uploadDate": "8-04-2018",
+      "isAction": 0,          "isWarning": 0
+  },
+  {
+    "userId": "1010",
+
+    "adId": "EO1010",
+
+    "price": 3500,
+
+    "category": "Electronics",
+
+    "subCategory": "Others",
+
+    "description": "Tablet",
+
+    "city": "Pune",
+
+    "manufacturer": "BSNL",
+
+    "makeModel": "Series 2",
+
+    "makeYear": 2012,
+
+    "location": "Talwade",
+
+    "images": "",
+
+    "uploadDate": "14-09-2018",
+      "isAction": 0,          "isWarning": 0
+    
+  }
+]
+
+
+

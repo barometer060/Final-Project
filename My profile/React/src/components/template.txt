@@ -1,0 +1,28 @@
+import React, { Component } from 'react';
+import '../App.css';
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+
+------------------
+   "subscriptions": [],
+           "mailBox": [],
+           "firstName": "Dummy1",
+           "lastName": "",
+           "phoneNumber": 9999999999,
+           "address": {
+                "city":"Pune",
+                "landmark":"Talawade",
+                "pincode":411551
+           },
+           "emailId": "testemail101@example.com",
+           "dateOfBirth": "01-01-2000",

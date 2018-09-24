@@ -1,0 +1,64 @@
+ <input type="password" ref="newPass"
+              pattern='(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$'
+              placeholder="Enter New password" onInput={this.handleCheck.bind(this)} />
+            {this.state.passChecked && <span className="glyphicon glyphicon-ok"></span>}
+            {!this.state.passChecked && <span className="glyphicon glyphicon-remove"></span>}
+            <br />
+            <input type="password" ref="confirmPass" onInput={this.handleInput.bind(this)} placeholder="Confirm Password" />
+            {this.state.passwordMatch && <span className="glyphicon glyphicon-ok"></span>}
+            {this.state.passwordNotMatch && <span className="glyphicon glyphicon-remove"></span>} <br />
+            <input type="submit" value="Update Password" />
+
+
+              <div className="form">
+          <form  onSubmit={this.handleLogin.bind(this)}>
+
+            <div className="back"> <span><i className="fa fa-arrow-circle-left" aria-hidden="true"></i></span></div>
+
+            <h3>Enter your credentials</h3>
+
+            <div className="inputs">
+              <div className="email">
+                <input className="first" type="email" placeholder="Your email" ref="id" required />
+                <input className="second" type="password" placeholder="Your Password" ref="pwd" required /><br />
+                {(this.state.errorMessage) && (<span id="loginError">Incorrect Username or  Password</span>)}<br />
+
+                <button className="login">Log in</button> <br />
+
+                <br />
+                <Link to={'/forgot'}>Forgot Password</Link>
+  
+              </div>
+
+            </div>
+          </form>
+            
+        </div>
+
+
+
+
+
+          <div >
+                    <h3>Verify your deatils</h3>
+                    <div > <span><i className="fa fa-arrow-circle-left" aria-hidden="true"></i></span></div>
+                    
+
+                    <div className="inputs">
+                        <div className="email">
+                            <input className="first" type="email" placeholder="Your email" ref="email" required /><br />
+                            <div>
+                                <select name="questions" onChange={this.handleChange}>
+                                    {questionMenu}
+                                </select>
+                            </div>
+                            <input className="second" type="text" placeholder="Your Answer" ref="answer" required />
+
+                              <h1> BREAK </h1>
+                            <button className="login" onClick={this.onSubmitSecurity.bind(this)}>Submit</button>
+                        </div>
+
+                    </div>
+
+
+                </div>

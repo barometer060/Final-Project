@@ -1,0 +1,684 @@
+[
+  {
+    "userId": "9875",
+    "adId": "PA1001",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+    "subCategory": "Apartment",
+    "price": 2230000,
+    "description": "1 BHK with basement parking, present in one of the prime location of Pune",
+    "city": "Pune",
+    "location": "Akurdi",
+    "areaInSqft": 800,
+    "images": "",
+    "uploadDate": "13-05-2018"
+  },
+  {
+    "userId": "9874",
+    "adId": "PA1002",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,  
+    "subCategory": "Apartment",
+    "price": 3240000,
+    "description": "2 BHK, east-facing, equipped with all basic amenities ",
+    "city": "Mumbai",
+    "location": "Goregaon",
+    "areaInSqft": 1350,
+    "images": "",
+    "uploadDate": "30-06-2018"
+  },
+  {
+    "userId": "9873",
+    "adId": "PA1003",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,    
+    "subCategory": "Apartment",
+    "price": 6700000,
+    "description": "3 BHK appartment with 1 servant quater, present in one of the prime location.",
+    "city": "Gurugram",
+    "location": "Rosewood City",
+    "areaInSqft": 1500,
+    "images": "",
+    "uploadDate": "13-07-2018"
+  },
+  {
+    "userId": "9872",
+    "adId": "PA1004",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,    
+    "subCategory": "Apartment",
+    "price": 1500000,
+    "description": "2 BHK appartment located in a decent vicinity",
+    "city": "Amritsar",
+    "location": "Rajpura",
+    "areaInSqft": 800,
+    "images": "",
+    "uploadDate": "30-03-2018"
+  },
+  {
+    "userId": "9871",
+    "adId": "PA1005",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,    
+    "subCategory": "Apartment",
+    "price": 200000,
+    "description": "1 BHK apartment present close to a major marketplace.",
+    "city": "New Delhi",
+    "location": "ChattarPur",
+    "areaInSqft": 1000,
+    "images": "",
+    "uploadDate": "23-02-2018"
+  },
+  {
+    "userId": "9826",
+    "adId": "PA1006",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+    "subCategory": "Apartment",
+    "price": 3500000,
+    "description": "2 BHK, well illuminated appartment with 24 hour water and electricity supply",
+    "city": "Jaipur",
+    "location": "MadhoPur",
+    "areaInSqft": 1800,
+    "images": "",
+    "uploadDate": "29-01-2018"
+  },
+  {
+    "userId": "9836",
+    "adId": "PA1007",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,  
+    "subCategory": "Apartment",
+    "price": 7800000,
+    "description": "3 BHK apartment with proximity to the national highway and present in the most affluent areas of the city",
+    "city": "Noida",
+    "location": "Race Course Road",
+    "areaInSqft": 1750,
+    "images": "",
+    "uploadDate": "17-04-2018"
+  },
+  {
+    "userId": "9846",
+    "adId": "PA1008",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+    "subCategory": "Apartment",
+    "price": 12500000,
+    "description": "2 BHK, sea-facing appartment with 24 water and electricity supply, and 2 parking slots",
+    "city": "Mumbai",
+    "location": "Marine Drive",
+    "areaInSqft": 1600,
+    "images": "",
+    "uploadDate": "04-08-2018"
+  },
+  {
+    "userId": "9856",
+    "adId": "PA1009",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+    "subCategory": "Apartment",
+    "price": 14000000,
+    "description": "3 BHK appartment present in a very posh society present next to NH8, equipped with all modern gadgets, and a personal parking slot",
+    "city": "Gurugram",
+    "location": "Golf Course Road",
+    "areaInSqft": 1350,
+    "images": "",
+    "uploadDate": "09-09-2018"
+  },
+  {
+    "userId": "9866",
+    "adId": "PA1010",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+    "subCategory": "Apartment",
+    "price": 2100000,
+    "description": "1 BHK semi-furnished appartment equipped with all basic amenities",
+    "city": "Kolkata",
+    "location": "Ring Chowk",
+    "areaInSqft": 750,
+    "images": "",
+    "uploadDate": "15-01-2018"
+  }
+,
+
+  {
+    "adId": "PB1101",
+    "userId": "6942",
+    "price": 4000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "Baner",
+    "images": "",
+    "areaInSqft": 4000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PB1102",
+    "userId": "6943",
+    "price": 5000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "Hadapsar",
+    "images": "",
+    "areaInSqft": 5000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PB1103",
+    "userId": "6944",
+    "price": 6000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "Wakad",
+    "images": "",
+    "areaInSqft": 6000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PB1104",
+    "userId": "6945",
+    "price": 7000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "Ravet",
+    "images": "",
+    "areaInSqft": 7000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PB1105",
+    "userId": "6946",
+    "price": 9000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "Magarpatta",
+    "images": "",
+    "areaInSqft": 9000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PB1106",
+    "userId": "6942",
+    "price": 8000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "Aundh",
+    "images": "",
+    "areaInSqft": 8000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PB1107",
+    "userId": "6943",
+    "price": 6000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "Balewadi",
+    "images": "",
+    "areaInSqft": 6000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PB1108",
+    "userId": "6949",
+    "price": 8000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "Viman Nagar",
+    "images": "",
+    "areaInSqft": 8000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PB1109",
+    "userId": "6950",
+    "price": 6000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "Dhanori",
+    "images": "",
+    "areaInSqft": 6000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PB1110",
+    "userId": "6951",
+    "price": 7000000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Bungalow",
+    "city": "Pune",
+    "location": "ShivajiNagar",
+    "images": "",
+    "areaInSqft": 7000,
+    "description": "Lavish bungalow for sale",
+    "uploadDate": "08-06-2018"
+  }
+,
+
+  {
+    "adId": "PS1",
+    "userId": "1001",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,    
+    "subCategory": "Sites",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 250,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PS2000",
+    "userId": "1002",
+    "price": 5000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Sites",
+    "location": "Pune ravet",
+    "images": "",
+    "areaInSqft": 500,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PS3000",
+    "userId": "1003",
+    "price": 6000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Sites",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 750,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me"
+  },
+  {
+    "adId": "PS4000",
+    "userId": "1004",
+    "price": 4500,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Sites",
+    "location": "Pune hinjewadi",
+    "images": "",
+
+    "areaInSqft": 120,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PS5000",
+    "userId": "1005",
+    "price": 5500,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,    
+    "subCategory": "Sites",
+    "location": "Pune baner",
+    "images": "",
+    "areaInSqft": 240,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "P6000",
+    "userId": "1006",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Sites",
+    "location": "Pune aundh",
+    "images": "",
+    "areaInSqft": 360,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PS7000",
+    "userId": "1007",
+    "price": 4280,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Sites",
+    "location": "Pune shivajinagar",
+    "images": "",
+
+    "areaInSqft": 480,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PS8000",
+    "userId": "1008",
+    "price": 3000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Sites",
+    "location": "Pune park",
+    "images": "",
+    "areaInSqft": 600,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PS9000",
+    "userId": "1009",
+    "price": 2000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Sites",
+    "location": "Pune viman nagar",
+    "images": "",
+    "areaInSqft": 300,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PS1000",
+    "userId": "1010",
+    "price": 9000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Sites",
+    "location": "Pune talawade",
+    "images": "",
+    "areaInSqft": 350,
+    "city": "Pune",
+    "description": "hello,I am looking for a shared occupancy for myself from 1st oct in fully/semi furnished flat in areas like nigdi,ravet,near bhel chowk if anybody is looking for roomate can contact me",
+    "uploadDate": "08-06-2018"
+  }
+,
+
+  {
+    "userId": 1199,
+    "addId": "PV1000",
+    "price": "4000",
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "userId": "1299",
+    "addId": "PV1001",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune",
+    "location": "Viman Nagar",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "userId": "1399",
+    "addId": "PV1002",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "userId": "1499",
+    "addId": "PV1003",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune",
+    "location": "Koregaon Park",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "userId": "1599",
+    "addId": "PV1004",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "userId": "1699",
+    "addId": "PV1005",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "userId": "1799",
+    "addId": "PV1006",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune nigdi",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "userId": "1899",
+    "addId": "PV1007",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune nigdi",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "userId": "1999",
+    "addId": "PV1008",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune nigdi",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "userId": "1099",
+    "addId": "PV1009",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,   
+
+    "subCategory": "Villa",
+    "city": "Pune nigdi",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 2,
+    "description": "Only for families",
+    "uploadDate": "08-06-2018"
+  }
+,
+
+  {
+    "adId": "PO1100",
+    "userId": "1234",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 200,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PO1200",
+    "userId": "1235",
+    "price": 5000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune ravet",
+    "images": "",
+    "areaIn sqft": 300,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PO1300",
+    "userId": "1236",
+    "price": 6000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune nigdi",
+    "images": "",
+    "areaInSqft": 200,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PO1400",
+    "userId": "1237",
+    "price": 4500,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune hinjewadi",
+    "images": "",
+    "areaInSqft": 200,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PO1500",
+    "userId": "1238",
+    "price": 5500,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune baner",
+    "images": "",
+    "areaInSqft": 100,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PO1600",
+    "userId": "1239",
+    "price": 4000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune aundh",
+    "images": "",
+    "areaInSqft": 300,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PO1700",
+    "userId": "1240",
+    "price": 4280,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune shivajinagar",
+    "images": "",
+    "areaInSqft": 200,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PO1800",
+    "uerId": "1241",
+    "price": 3000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune park",
+    "images": "",
+    "areaInSqft": 200,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PO1900",
+    "userId": "1242",
+    "price": 2000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune viman nagar",
+    "images": "",
+
+    "areaInSqft": 200,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  },
+  {
+    "adId": "PO2000",
+    "userId": "1243",
+    "price": 9000,
+    "category": "Property",    "isAction": 0,     "isWarning": 0,
+    "subCategory": "Others",
+    "city": "Pune",
+    "location": "Pune talawade",
+    "images": "",
+    "areaInSqft": 200,
+    "description": "I want to sell my shop which is near nigdi bus stop",
+    "uploadDate": "08-06-2018"
+  }
+]
+
+
+
+
