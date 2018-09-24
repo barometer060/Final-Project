@@ -1,0 +1,36 @@
+
+[
+{
+    "quesId": 1,
+    "question" : "What was your childhood nickname?"
+},
+{
+    "quesId": 2,
+    "question" : "In what city or town did your mother and father meet?"
+},
+{
+    "quesId": 3,
+    "question" : "What is your favorite movie?"
+},
+{
+    "quesId": 4,
+    "question" : "What was the make and model of your first car?"
+},
+{
+    "quesId": 5,
+    "question" : "What was the name of the hospital where you were born?"
+},
+{
+    "quesId": 6,
+    "question" : "Who is your childhood sports hero?"
+},
+{
+    "quesId": 7,
+    "question" : "What was the last name of your favorite teacher?"
+},
+{
+    "quesId": 8,
+    "question" : "What was the name of the company where you had your first job?"
+}
+
+]

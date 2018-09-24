@@ -23,10 +23,10 @@
   font-size: large;
 }
 
-body {
+/* body {
   background: #9cecfb;
   background: linear-gradient(to right, #0052d4, #65c7f7, #9cecfb);
-}
+} */
 
 @keyframes App-logo-spin {
   from {

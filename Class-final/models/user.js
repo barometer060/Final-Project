@@ -35,7 +35,7 @@ exports.Questions = function() {
     .then(dbvar => {
       const col = dbvar.db("adDatabase");
       return col
-        .collection("securityQuestions")
+        .collection("securityQues")
         .find({})
         .toArray();
     })
@@ -88,7 +88,7 @@ exports.addUserDetails = function(data) {
         answer: data.answer
       });
 
-      return db.collection("userDetails").insertOne(
+      return col.collection("userDetails").insertOne(
         {
           userId: uid,
           myAds: [],
@@ -142,15 +142,15 @@ exports.isEmailAvailable1 = function(email) {
 };
 
 exports.getQuestions = function() {
-  return dbConnection
+  return MongoClient.connect("mongodb://localhost:27017/")
     .then(dbobj => {
       var db = dbobj.db("adDatabase");
       return db
-        .collection("securityQuestions")
+        .collection("securityQues")
         .find({})
         .toArray();
     })
-    .cath(err => {
+    .catch(err => {
       throw err;
     });
 };

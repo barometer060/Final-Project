@@ -1,7 +1,8 @@
 const router = require("express").Router();
 const User = require("../models/user");
+const encrypt = require("md5");
 
-router.get("/login", async (req, res) => {
+router.post("/login", async (req, res) => {
   let allowLogin = false;
   let user = await User.dbread(req.body.emailId, req.body.password);
   user = user[0];
@@ -23,7 +24,7 @@ router.post("/forgot/questionsVerify", async (req, res) => {
   const result = await User.findemail(req.body.emailId);
   if (result.length > 0) {
     if (
-      req.body.quesId === result[0].quesId &&
+      parseInt(req.body.quesId) === result[0].quesId &&
       req.body.answer === result[0].answer
     ) {
       res.send({ verifyData: true });

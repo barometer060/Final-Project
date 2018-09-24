@@ -1,25 +1,28 @@
-import React, { Component } from "react";
-import "./App.css";
-import RegisterForm from "./components/RegisterForm/RegisterForm";
-import LoginForm from "./components/LoginForm/LoginForm";
-import Home from "./components/Home/Home";
-import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import FrontPage from './components/frontPage';
+import ForgotPassword from './components/forgotPassword';
+import SignUp from './components/signUp'
+import './App.css';
 
 class App extends Component {
+  
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/login" component={LoginForm} />
-            <Route exact path="/register" component={RegisterForm} />
-            <Route exact path="/forgot" component={ForgotPassword} />
-          </Switch>
-        </div>
-      </BrowserRouter>
+      <div className="App">
+        <Router>
+       
+        <Switch>
+
+<Route exact path='/' component={FrontPage}/>
+<Route exact path='/forgot' component={ForgotPassword}/>
+<Route exact path='/signUp' component={SignUp}></Route>
+
+
+
+        </Switch>
+      </Router>
+      </div>
     );
   }
 }
