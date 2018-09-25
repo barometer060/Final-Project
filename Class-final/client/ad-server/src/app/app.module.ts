@@ -10,6 +10,7 @@ import { AdDetailsComponent } from "./ad-details/ad-details.component";
 import { DispalyMsgComponent } from "./dispaly-msg/dispaly-msg.component";
 import { MessagesComponent } from "./messages/messages.component";
 import { NgxPaginationModule } from "ngx-pagination";
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgxPaginationModule } from "ngx-pagination";
     CategoryComponent,
     AdDetailsComponent,
     DispalyMsgComponent,
-    MessagesComponent
+    MessagesComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

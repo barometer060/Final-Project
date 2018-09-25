@@ -27,10 +27,10 @@ exports.f1 = function() {
   return MongoClient.connect("mongodb://localhost:27017/")
     .then(dbvar => {
       const col = dbvar.db("adDatabase");
-      col.collection("Electronics").insertMany(data1, true);
-      col.collection("Others").insertMany(data2, true);
-      col.collection("Property").insertMany(data3, true);
-      col.collection("Vehicles").insertMany(data4, true);
+      // col.collection("Electronics").insertMany(data1, true);
+      // col.collection("Others").insertMany(data2, true);
+      // col.collection("Property").insertMany(data3, true);
+      // col.collection("Vehicles").insertMany(data4, true);
       // col.collection("securityQues").insertMany(data5, true);
       // col.collection("ad").insertMany(data6, true);
       // col.collection("userDetails").insertMany(data7, true);

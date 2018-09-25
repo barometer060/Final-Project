@@ -31,7 +31,7 @@ class UserProfile extends Component {
         <nav className="navbar navbar-expand-lg bg-dark ">
           <ul className="navbar-nav">
             <li className="nav-item col-lg-2">
-              <a href="#" className="nav-link linknav">
+              <a href="http://localhost:4200/" className="nav-link linknav">
                 Home
               </a>
             </li>
@@ -54,15 +54,23 @@ class UserProfile extends Component {
               </a>
               <ul className="dropdown-menu">
                 <li className="dropdown-item">
-                  <a href="/about">Profile</a>
+                  <a href="/userProfile" style={{ color: "blue" }}>
+                    Profile
+                  </a>
                 </li>
                 <li className="dropdown-item">
-                  <a href="/myAds">My ads</a>
+                  <a
+                    href="http://localhost:4200/messages"
+                    style={{ color: "blue" }}
+                  >
+                    Inbox
+                  </a>
                 </li>
                 <li className="dropdown-item">
-                  <a href="/messages">Inbox</a>
+                  <Link to="/" style={{ color: "blue" }}>
+                    Logout
+                  </Link>
                 </li>
-                <li className="dropdown-item">Logout</li>
               </ul>
             </li>
           </ul>
